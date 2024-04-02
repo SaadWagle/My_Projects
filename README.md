@@ -1,8 +1,13 @@
 # My_Projects
 
 ## Sql Power Bi Project Overview: 
-As part of my journey to transition into a data analyst role, I've taken on a solo project sales analysis. In this hypothetical scenario, Atliq Hardware, a hardware parts supplier, needed to understand the Indian market's current state. I am writing queries to provide them with data and insights which will help them understand the Indian market better.                                                          
--DATA SOURCE: learn.microsoft.com
+In this solo project, I've embarked on a comprehensive sales analysis endeavor. The focus of this hypothetical scenario lies on Atliq Hardware, a supplier of hardware parts, aiming to grasp the current state of the Indian market. Through meticulously crafted SQL queries, I'm tasked with providing Atliq Hardware with insightful data and analytics to facilitate a deeper understanding of the Indian market dynamics.
+
+Project Goals:
+Provide Atliq Hardware with a comprehensive understanding of the Indian market landscape.
+Empower the Sales Director with actionable insights to optimize sales strategies and decision-making processes.
+Enhance data-driven decision-making capabilities within Atliq Hardware through the implementation of a visually engaging Power BI dashboard.                                                                                                                                
+     -DATA SOURCE: learn.microsoft.com
 
 ## Electoral Bonds Project Overview:
 In response to the Chief Justice of India's ruling against the Electoral Bonds System implemented in 2017, this project delves into the alarming connection between corporates and political parties. The ruling sheds light on a concerning pattern where companies, often public-listed, donate to political parties immediately following enforcement directorate (ED) raids. Subsequently, charges against these companies are dropped, suggesting a potential quid-pro-quo arrangement.
@@ -11,11 +16,11 @@ The Electoral Bonds System has been under scrutiny due to its opacity, allowing 
 
 In response to these issues, the Supreme Court has taken a decisive stance by discarding the Electoral Bonds System. To further understand the dynamics at play and to provide insights, this project utilizes data provided by the State Bank of India (SBI), available on the official Election Commission's website. Through comprehensive analysis, the project aims to uncover patterns and correlations within the data.
 
-Objectives:
--Investigate the relationship between corporates and political parties through donation patterns.
--Analyze the bond encashments pattern and uncover significant disparities, revealing a notable gap between the bonds encashed by the ruling party compared to others.
--Assess the implications of using public funds for political contributions without public knowledge.
--Provide predictive insights on which political parties might benefit from electoral bonds, based on features such as purchase name, denomination, etc.
+Project Objectives:                                                                                                                       
+-Investigate the relationship between corporates and political parties through donation patterns.                                         
+-Analyze the bond encashments pattern and uncover significant disparities, revealing a notable gap between the bonds encashed by the ruling party compared to others.                                                                                                          
+-Assess the implications of using public funds for political contributions without public knowledge.                                      
+-Provide predictive insights on which political parties might benefit from electoral bonds, based on features such as purchase name      denomination, etc.
 
 Methodology-                                                                                                                              
  Data Collection: Utilize data provided by the SBI from the official Election Commission's website.
