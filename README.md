@@ -1,4 +1,4 @@
-# My_Projects
+# My Projects
 
 ## Sql Power Bi Project Overview: 
 In this solo project, I've embarked on a comprehensive sales analysis endeavor. The focus of this hypothetical scenario lies on Atliq Hardware, a supplier of hardware parts, aiming to grasp the current state of the Indian market. Through meticulously crafted SQL queries, I'm tasked with providing Atliq Hardware with insightful data and analytics to facilitate a deeper understanding of the Indian market dynamics.
