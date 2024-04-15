@@ -8,6 +8,7 @@ Provide Atliq Hardware with a comprehensive understanding of the Indian market l
 Empower the Sales Director with actionable insights to optimize sales strategies and decision-making processes.
 Enhance data-driven decision-making capabilities within Atliq Hardware through the implementation of a visually engaging Power BI dashboard.                                                                                                                                
      -DATA SOURCE: learn.microsoft.com
+     -link: https://app.powerbi.com/groups/me/reports/6905cd27-0fd7-4dc6-9295-2d719052bb0f/ReportSection?experience=power-bi
 
 ## Electoral Bonds Project Overview:
 In response to the Chief Justice of India's ruling against the Electoral Bonds System implemented in 2017, this project delves into the alarming connection between corporates and political parties. The ruling sheds light on a concerning pattern where companies, often public-listed, donate to political parties immediately following enforcement directorate (ED) raids. Subsequently, charges against these companies are dropped, suggesting a potential quid-pro-quo arrangement.
