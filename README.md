@@ -7,7 +7,7 @@ Project Goals:
 Provide Atliq Hardware with a comprehensive understanding of the Indian market landscape.
 Empower the Sales Director with actionable insights to optimize sales strategies and decision-making processes.
 Enhance data-driven decision-making capabilities within Atliq Hardware through the implementation of a visually engaging Power BI dashboard.                                                                                                                                
-     -DATA SOURCE: learn.microsoft.com
+     -DATA SOURCE: learn.microsoft.com                                                                                                    
      -link: https://app.powerbi.com/groups/me/reports/6905cd27-0fd7-4dc6-9295-2d719052bb0f/ReportSection?experience=power-bi
 
 ## Electoral Bonds Project Overview:
