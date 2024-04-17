@@ -10,7 +10,7 @@ Enhance data-driven decision-making capabilities within Atliq Hardware through t
      -DATA SOURCE: learn.microsoft.com                                                                                                    
      -link: https://app.powerbi.com/groups/me/reports/6905cd27-0fd7-4dc6-9295-2d719052bb0f/ReportSection?experience=power-bi
 
-## Decoding Electoral Bonds Overview:
+## Decoding Electoral Bonds Project Overview:
 In response to the Chief Justice of India's ruling against the Electoral Bonds System implemented in 2017, this project delves into the alarming connection between corporates and political parties. The ruling sheds light on a concerning pattern where companies, often public-listed, donate to political parties immediately following enforcement directorate (ED) raids. Subsequently, charges against these companies are dropped, suggesting a potential quid-pro-quo arrangement.
 
 The Electoral Bonds System has been under scrutiny due to its opacity, allowing corporate entities to anonymously donate significant sums to political parties. This lack of transparency not only undermines democratic principles but also infringes upon the public's right to information, especially since public funds invested in these companies might be unknowingly utilized for political contributions.
