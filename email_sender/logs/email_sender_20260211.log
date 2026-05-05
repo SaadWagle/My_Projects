@@ -1,0 +1,77 @@
+2026-02-11 12:37:42,879 | INFO | Profile: dev
+2026-02-11 12:37:42,879 | INFO | Log level: INFO
+2026-02-11 12:37:42,879 | INFO | Script started | report_type=None | provider=None | specific_file=None
+2026-02-11 12:37:42,880 | INFO | Resolved file | path=D:\Lyra_Dev\etl_structured\data\live_reports\mpireport_billing_2026-02-04_to_2026-02-05_lyraindia_worldline.csv | report_type=mpireport | provider=worldline
+2026-02-11 12:37:42,881 | INFO | Report file found | report_type=mpireport | provider=worldline | file=mpireport_billing_2026-02-04_to_2026-02-05_lyraindia_worldline.csv
+2026-02-11 12:37:42,881 | INFO | Attachment file size | file=mpireport_billing_2026-02-04_to_2026-02-05_lyraindia_worldline.csv | size_mb=96.81
+2026-02-11 12:37:45,242 | INFO | File compressed for email | file=mpireport_billing_2026-02-04_to_2026-02-05_lyraindia_worldline.csv.zip
+2026-02-11 12:37:45,350 | INFO | Access token loaded successfully
+2026-02-11 12:37:45,361 | ERROR | Unhandled error occurred | provider=worldline | error=Usecols do not match columns, columns expected but not found: ['STATUS', 'NETWORK']
+Traceback (most recent call last):
+  File "D:\Lyra_Dev\email_sender\src\script\send_mail.py", line 147, in <module>
+    htmltable = summary(file_path)
+                ^^^^^^^^^^^^^^^^^^
+  File "D:\Lyra_Dev\email_sender\src\script\mail_utils.py", line 65, in summary
+    df = pd.read_csv(file_path, usecols=['STATUS','NETWORK'],
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Lyra_Dev\venv\mail_venv\Lib\site-packages\pandas\io\parsers\readers.py", line 1026, in read_csv
+    return _read(filepath_or_buffer, kwds)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Lyra_Dev\venv\mail_venv\Lib\site-packages\pandas\io\parsers\readers.py", line 620, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Lyra_Dev\venv\mail_venv\Lib\site-packages\pandas\io\parsers\readers.py", line 1620, in __init__
+    self._engine = self._make_engine(f, self.engine)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Lyra_Dev\venv\mail_venv\Lib\site-packages\pandas\io\parsers\readers.py", line 1898, in _make_engine
+    return mapping[engine](f, **self.options)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Lyra_Dev\venv\mail_venv\Lib\site-packages\pandas\io\parsers\c_parser_wrapper.py", line 140, in __init__
+    self._validate_usecols_names(usecols, self.orig_names)
+  File "D:\Lyra_Dev\venv\mail_venv\Lib\site-packages\pandas\io\parsers\base_parser.py", line 988, in _validate_usecols_names
+    raise ValueError(
+ValueError: Usecols do not match columns, columns expected but not found: ['STATUS', 'NETWORK']
+2026-02-11 12:38:06,929 | INFO | Profile: dev
+2026-02-11 12:38:06,929 | INFO | Log level: INFO
+2026-02-11 12:38:13,497 | INFO | Script started | report_type=None | provider=None | specific_file=None
+2026-02-11 12:38:13,499 | INFO | Resolved file | path=D:\Lyra_Dev\etl_structured\data\live_reports\mpireport_billing_2026-02-04_to_2026-02-05_lyraindia_worldline.csv | report_type=mpireport | provider=worldline
+2026-02-11 12:38:13,499 | INFO | Report file found | report_type=mpireport | provider=worldline | file=mpireport_billing_2026-02-04_to_2026-02-05_lyraindia_worldline.csv
+2026-02-11 12:38:24,282 | INFO | Attachment file size | file=mpireport_billing_2026-02-04_to_2026-02-05_lyraindia_worldline.csv | size_mb=96.81
+2026-02-11 12:39:22,890 | INFO | Profile: dev
+2026-02-11 12:39:22,891 | INFO | Log level: INFO
+2026-02-11 12:39:22,891 | INFO | Script started | report_type=None | provider=None | specific_file=None
+2026-02-11 12:39:22,894 | INFO | Resolved file | path=D:\Lyra_Dev\etl_structured\data\live_reports\mpireport_billing_2026-01-27_to_2026-01-28_lyraindia_stripe.csv | report_type=mpireport | provider=stripe
+2026-02-11 12:39:22,894 | INFO | Report file found | report_type=mpireport | provider=stripe | file=mpireport_billing_2026-01-27_to_2026-01-28_lyraindia_stripe.csv
+2026-02-11 12:39:25,567 | INFO | Attachment file size | file=mpireport_billing_2026-01-27_to_2026-01-28_lyraindia_stripe.csv | size_mb=0.21
+2026-02-11 12:39:25,567 | INFO | File below size threshold, sending as-is | file=mpireport_billing_2026-01-27_to_2026-01-28_lyraindia_stripe.csv
+2026-02-11 12:39:25,583 | INFO | Access token loaded successfully
+2026-02-11 12:40:23,532 | INFO | Loaded CC mapping file | D:\Lyra_Dev\email_sender\mapping\cc_mapping.yaml
+2026-02-11 12:40:27,091 | INFO | Recipients mail_id | [{'emailAddress': {'address': 'saad.wagle@lyra-network.co.in'}}]
+2026-02-11 12:40:38,147 | INFO | Email sent successfully | provider=stripe | status=202
+2026-02-11 12:48:19,390 | INFO | Profile: dev
+2026-02-11 12:48:19,390 | INFO | Log level: INFO
+2026-02-11 12:48:19,390 | INFO | Script started | report_type=None | provider=None | specific_file=None
+2026-02-11 12:48:19,390 | INFO | Resolved file | path=D:\Lyra_Dev\etl_structured\data\live_reports\mpireport_billing_2026-01-27_to_2026-01-28_lyraindia_stripe.csv | report_type=mpireport | provider=stripe
+2026-02-11 12:48:19,390 | INFO | Report file found | report_type=mpireport | provider=stripe | file=mpireport_billing_2026-01-27_to_2026-01-28_lyraindia_stripe.csv
+2026-02-11 12:48:19,390 | INFO | Attachment file size | file=mpireport_billing_2026-01-27_to_2026-01-28_lyraindia_stripe.csv | size_mb=0.21
+2026-02-11 12:48:19,390 | INFO | File below size threshold, sending as-is | file=mpireport_billing_2026-01-27_to_2026-01-28_lyraindia_stripe.csv
+2026-02-11 12:48:19,395 | INFO | Access token loaded successfully
+2026-02-11 12:48:19,417 | INFO | Loaded CC mapping file | D:\Lyra_Dev\email_sender\mapping\cc_mapping.yaml
+2026-02-11 12:48:19,417 | INFO | Recipients mail_id | [{'emailAddress': {'address': 'saad.wagle@lyra-network.co.in'}}]
+2026-02-11 12:48:20,000 | INFO | Email sent successfully | provider=stripe | status=202
+2026-02-11 15:09:58,700 | INFO | Profile: dev
+2026-02-11 15:09:58,701 | INFO | Log level: INFO
+2026-02-11 15:09:58,701 | INFO | Script started | report_type=None | provider=None | specific_file=None
+2026-02-11 15:09:58,703 | INFO | Resolved file | path=D:\Lyra_Dev\AuthenticationReport\data\output\dummy_SR.xlsx | report_type=dummy | provider=SR.xlsx
+2026-02-11 15:09:58,703 | INFO | Report file found | report_type=dummy | provider=SR.xlsx | file=dummy_SR.xlsx
+2026-02-11 15:09:58,704 | INFO | Attachment file size | file=dummy_SR.xlsx | size_mb=0.01
+2026-02-11 15:09:58,704 | INFO | File below size threshold, sending as-is | file=dummy_SR.xlsx
+2026-02-11 15:09:58,717 | ERROR | Access token expired
+2026-02-11 15:09:58,717 | ERROR | Unhandled error occurred | provider=SR.xlsx | error=Access token expired. Re-run auth.py
+Traceback (most recent call last):
+  File "D:\Lyra_Dev\email_sender\src\script\send_mail.py", line 144, in <module>
+    access_token = load_token()
+                   ^^^^^^^^^^^^
+  File "D:\Lyra_Dev\email_sender\src\script\send_mail.py", line 64, in load_token
+    raise RuntimeError("Access token expired. Re-run auth.py")
+RuntimeError: Access token expired. Re-run auth.py

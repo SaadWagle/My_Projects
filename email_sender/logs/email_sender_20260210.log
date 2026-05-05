@@ -1,0 +1,16 @@
+2026-02-10 18:10:26,140 | INFO | Profile: dev
+2026-02-10 18:10:26,141 | INFO | Log level: INFO
+2026-02-10 18:10:29,941 | INFO | Script started | report_type=None | provider=None | specific_file=None
+2026-02-10 18:10:29,947 | INFO | Resolved file | path=D:\Lyra_Dev\etl_structured\data\live_reports\mpireport_billing_2026-02-04_to_2026-02-05_lyraindia_worldline.csv | report_type=mpireport | provider=worldline
+2026-02-10 18:10:29,948 | INFO | Report file found | report_type=mpireport | provider=worldline | file=mpireport_billing_2026-02-04_to_2026-02-05_lyraindia_worldline.csv
+2026-02-10 18:10:37,225 | INFO | Attachment file size | file=mpireport_billing_2026-02-04_to_2026-02-05_lyraindia_worldline.csv | size_mb=96.81
+2026-02-10 18:11:12,865 | INFO | File compressed for email | file=mpireport_billing_2026-02-04_to_2026-02-05_lyraindia_worldline.csv.zip
+2026-02-10 18:11:19,705 | ERROR | Access token expired
+2026-02-10 18:11:22,928 | ERROR | Unhandled error occurred | provider=worldline | error=Access token expired. Re-run auth.py
+Traceback (most recent call last):
+  File "D:\Lyra_Dev\email_sender\src\script\send_mail.py", line 144, in <module>
+    access_token = load_token()
+                   ^^^^^^^^^^^^
+  File "D:\Lyra_Dev\email_sender\src\script\send_mail.py", line 64, in load_token
+    raise RuntimeError("Access token expired. Re-run auth.py")
+RuntimeError: Access token expired. Re-run auth.py
