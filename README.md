@@ -41,3 +41,30 @@ Conclusion:
 The project concludes with implications drawn from the analysis, emphasizing the need for transparency and accountability in political funding. By shedding light on the concerning practices associated with the Electoral Bonds System, the project aims to contribute to informed public discourse and potential policy reforms to safeguard democratic principles.                                                
 -Data Source: Official ECI Website
 
+## Email Sending Service - Microsoft Graph API (MSAL)
+
+Project Objective
+The goal of this project is to build an **independent automated mail service** powered by Microsoft Graph API and MSAL authentication.  
+
+- Automatically fetches the latest report from a defined source location.  
+- Checks whether the file size exceeds the mail attachment limit.  
+- If the limit is exceeded, the file is compressed into a ZIP archive.  
+- Sends the report to recipients using a **customized email template**.  
+
+Key Features
+- 🔒 Secure authentication with **MSAL (Microsoft Authentication Library)**.  
+- 📂 Automated file retrieval from desired destination.  
+- 📦 Intelligent file size check and compression.  
+- ✉️ Customizable email body and template for professional communication.  
+- ⚡ Fully automated workflow with minimal manual intervention.  
+
+Tech Stack
+- **Microsoft Graph API** – for email sending and integration with Microsoft services.  
+- **MSAL** – for secure authentication and token management.  
+- **Python** – scripting and automation logic.  
+
+Use Cases
+- Automated compliance or financial reporting.  
+- Scheduled distribution of dashboards or analytics reports.  
+- Streamlined communication with predefined recipients.  
+
