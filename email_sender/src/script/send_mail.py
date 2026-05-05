@@ -46,7 +46,7 @@ logger.info(f"Log level: {LOG_LEVEL_NAME}")
 cc_mapping_file = Mapping_Folder / 'cc_mapping.yaml'
 #token file
 token_file = ROOT_DIR / "live_token" / "token.json"
-user_id = "donotreply@lyra-network.co.in"
+user_id = "donotreply@xyz-network.co.in"
 
 
 def load_token():
@@ -98,7 +98,7 @@ logger.info(
 # testing
 # report_type = "mpireport"
 # provider = "stripe"
-# specific_file = r"D:\Lyra_Dev\AuthenticationReport\data\output\dummy_SR.xlsx"
+# specific_file = r"D:\xyz_Dev\AuthenticationReport\data\output\dummy_SR.xlsx"
 
 file_path, report_type, provider = get_latest_file(report_type, provider, specific_file)
 logger.info(
@@ -146,7 +146,7 @@ try:
         # reading file to calculate aggregated values & add summary
         htmltable = summary(file_path)
 
-        subject = f"Lyra PG - 3DS report - {provider.upper()}"
+        subject = f"xyz PG - 3DS report - {provider.upper()}"
 
         body_content = f"""
         <html>
@@ -162,7 +162,7 @@ try:
 
         <p>
         Regards,<br>
-        Lyra Network Pvt Ltd
+        XYZ Pvt Ltd
         </p>
 
         </body>
