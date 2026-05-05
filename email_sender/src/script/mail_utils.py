@@ -36,7 +36,7 @@ def get_latest_file(report_type=None, provider=None, specific_file=None):
     if not report_type or not provider:
         raise ValueError("report_type and provider are required if specific_file is not provided")
 
-    pattern = f"{report_type}_billing_*_lyraindia_{provider.lower()}.csv"
+    pattern = f"{report_type}_billing_*_xyzindia_{provider.lower()}.csv"
     files = list(Report_folder.glob(pattern))
 
     if not files:
